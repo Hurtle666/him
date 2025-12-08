@@ -1,0 +1,22 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-container {
+  width: 100%;
+    background: #0D0D0D;
+      color: #9aff9a;
+      font-family: 'Share Tech Mono', 'VT323', monospace;
+  text-align: center;
+  padding: 20px 0;
+position:relative;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    display: flexbox;
+    
+  }}

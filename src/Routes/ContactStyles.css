@@ -1,0 +1,65 @@
+/* === GENERAL CONTAINER STYLES === */
+.container {
+  height: 100vh;
+  background-color: #000;
+  font-family: 'Share Tech Mono', 'VT323', monospace;
+  font-weight: 700;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+/* === FORM ELEMENTS === */
+form {
+  line-height: 45px;
+}
+
+label {
+  color: red;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  width: 300px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 2px 7px 2px 7px;
+  outline: none;
+  font-family: 'Share Tech Mono', 'VT323', monospace;
+  font-weight: 700;
+  background: #1c1c1c;
+  color: #9aff9a;
+  resize: none;
+}
+
+/* === BUTTON STYLES === */
+.btn {
+  margin-top: 33px;
+  border-style: none;
+  border-radius: 2px 7px 2px 7px;
+  font-family: 'Share Tech Mono', 'VT323', monospace;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+/* === TEXT + HEADER === */
+.txt {
+  font-family: 'Share Tech Mono', 'VT323', monospace;
+}
+
+.contact-header {
+  text-align: center;
+  color: red;
+}
+
+/* === MISC === */
+.f {
+  margin-top: 100px;
+}

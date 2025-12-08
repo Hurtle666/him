@@ -1,0 +1,47 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Container Content */
+.about-container {
+  position: relative;
+  padding: 40px;
+  margin-top: 100px;
+  color:rgb(3, 255, 66);
+  font-family: 'Share Tech Mono', 'VT323', monospace;
+  font-weight: 1000;
+  height: 100vh;
+  z-index: 1;
+}
+
+/* FULLSCREEN BACKGROUND VIDEO */
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.about{
+  text-align: center;
+  color:red;
+}.write_up{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 2;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+  
+@media (max-width: 768px) {
+  .about-container {
+    padding: 2px;
+    margin-top: 8px;
+  }
+} 
