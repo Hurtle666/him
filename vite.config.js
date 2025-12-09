@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({ mode }) => {  // Use the mode param for NODE_ENV equivalent
-  const isProduction = mode === 'production';
-  return {
-    plugins: [react()],
-    base: process.env.VITE_BASE_PATH || (isProduction ? '/him' : '/'),  // Example: '/him' only in prod
-  };
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: process.env.VITE_BASE_PATH || '/',  // Use your env var if set, else root '/'. Remove VITE_BASE_PATH if not needed.
 });
